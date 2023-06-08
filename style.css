@@ -71,6 +71,12 @@ ul li.checked::before{
     cursor: pointer;
 }
 
+.row button{
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
 input{
     border: none;
     background: transparent;
