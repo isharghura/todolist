@@ -12,8 +12,13 @@
     padding: 10px;
 }
 
-.todolist h1{
-    margin: 2%;
+.box{
+    width: 300px;
+    margin: 0px auto 20px;
+    padding: 40px 30px 70px;
+}
+
+.box h1{
     text-align: center;
     font-size: 120%;
     font-weight: bold;
@@ -22,10 +27,21 @@
 .row{
     display: flex; 
     align-items: center;
+    justify-content: space-between;
+    background:white;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-top: 550px;
 }
 
 .row img{
-    width: 1.5%;
+    width: 35px;
     height: auto;
     cursor: pointer;
+}
+
+input{
+    border: none;
+    background: transparent;
+    outline: none;
 }
