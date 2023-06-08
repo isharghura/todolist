@@ -39,11 +39,20 @@ ul li::before{
     height: 35px;
     width: 35px;
     border-radius: 50%;
-    background-image: url("images/circle.png");
+    background-image: url("images/unchecked.png");
     background-size: cover;
     background-position: center;
     left:-45px;
     top: 10px;
+}
+
+ul li.checked{
+    color: #000;
+    text-decoration: line-through;
+}
+
+ul li.checked::before{
+    background-image: url("images/checked.png");
 }
 
 .row{
