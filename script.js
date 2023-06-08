@@ -8,6 +8,9 @@ function addTask(){
         let task=document.createElement("li");
         task.innerHTML=inputBox.value;
         listContainer.appendChild(task);
+        let span=document.createElement("span");
+        span.innerHTML="\u00d7";
+        task.appendChild(span);
     }
     inputBox.value='';
 }

@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     box-sizing: border-box;
+    color: #493703;
 }
 
 .container{
@@ -48,12 +49,31 @@ ul li::before{
 }
 
 ul li.checked{
-    color: #000;
+    color: #493703;
     text-decoration: line-through;
 }
 
 ul li.checked::before{
     background-image: url("images/checked.png");
+}
+
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #493703;
+    line-height: 40px;
+    text-align: center;
+}
+
+ul li span:hover{
+    border: solid 0px;
+    border-radius: 50%;
+    background-color: #fcc223;
+    transition: 0.3s ease-in;
 }
 
 .row{
