@@ -13,8 +13,8 @@ function addTask(){
 }
 
 document.addEventListener('keydown', (event)=>{
-    var name=event.key;
-    if(name==='Enter'){
+    var whichKey=event.key;
+    if(whichKey==='Enter'){
         addTask();
     }
 })
