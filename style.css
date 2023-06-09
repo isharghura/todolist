@@ -4,12 +4,13 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     box-sizing: border-box;
     color: #493703;
+    user-select: none;
 }
 
 .container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(0deg, #f5edc0, #ffdc7a);
+    background: linear-gradient(0deg, #ffffff, #f8bb13);
     padding: 10px;
 }
 
@@ -79,7 +80,7 @@ ul li::before{
 }
 
 ul li.checked{
-    color: #493703;
+    color: #000000;
     text-decoration: line-through;
 }
 
@@ -94,7 +95,7 @@ ul li span{
     width: 40px;
     height: 40px;
     font-size: 22px;
-    color: #493703;
+    color: #9e9885;
     line-height: 40px;
     text-align: center;
 }
@@ -102,25 +103,26 @@ ul li span{
 ul li span:hover{
     border: solid 0px;
     border-radius: 50%;
-    background-color: #fcc223;
+    background-color: #d6ba6d;
     transition: 0.3s ease-in;
 }
 
 .row{
-    position: fixed;
-    display: flex; 
+    display: flex;
     align-items: center;
     justify-content: space-between;
     background:white;
     border-radius: 30px;
     padding-left: 20px;
     margin-top: 40%;
+    user-select: none;
 }
 
 .row img{
     width: 35px;
     height: auto;
     cursor: pointer;
+    transform: rotate(93deg);
 }
 
 .row button{
