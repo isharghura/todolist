@@ -35,33 +35,9 @@ h1{
     font-weight: bold;
 }
 
-ul::-webkit-scrollbar{
-    width: 0.4em;
-}
-
-ul::-webkit-scrollbar-track{
-    background-color: #d3c7a7;
-}
-
-ul::-webkit-scrollbar-thumb{
-    background-color: #beb59f;
-}
-
-ul::-webkit-scrollbar-thumb:hover{
-    background-color: #9e9885;
-}
-
-@supports(scrollbar-color: red blue){
-    *{
-        scrollbar-color: #d3c7a7 #beb59f;
-        scrollbar-width: thin;
-    }
-}
-
 ul{
     width: 100%;
     height: auto;
-    overflow-y: scroll; 
 }
 
 ul li{
